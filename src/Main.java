@@ -3,7 +3,10 @@
 public class Main {
     public static void main(String[] args) {
         Allforone villano = new Allforone();
-
+        villano.ataque(25);
+        villano.superPoder(25);
+        villano.superPoder(25);
+        villano.superPoder(25);
 
 
     }

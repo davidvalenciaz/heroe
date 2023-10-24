@@ -66,7 +66,7 @@ public class Allforone  extends Heroe implements IActionHuman{
         this.roboAbsoluto();
         this.multiplicacionPoder();
         energiaActual(energiaActual);
-
+        setEnergy(getEnergy() - 10);
 
 
     }
@@ -74,6 +74,7 @@ public class Allforone  extends Heroe implements IActionHuman{
     @Override
     public void usarManos() {
         System.out.println("copia poderes");
+
     }
 
     @Override
