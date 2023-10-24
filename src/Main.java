@@ -3,8 +3,8 @@
 public class Main {
     public static void main(String[] args) {
         Allforone villano = new Allforone();
-        villano.superPoder(25);
-        villano.ataque(25);
+
+
 
     }
 }

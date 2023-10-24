@@ -62,6 +62,9 @@ public class Allforone  extends Heroe implements IActionHuman{
         this.usarManos();
         this.usarPies();
         this.saltar();
+        this.crearPoder();
+        this.roboAbsoluto();
+        this.multiplicacionPoder();
         energiaActual(energiaActual);
 
 
@@ -70,7 +73,7 @@ public class Allforone  extends Heroe implements IActionHuman{
 
     @Override
     public void usarManos() {
-        System.out.println("roba y da poderes");
+        System.out.println("copia poderes");
     }
 
     @Override
@@ -95,6 +98,18 @@ public class Allforone  extends Heroe implements IActionHuman{
     public void hablar() {
         System.out.println("escupe veneno por la boca");
 
+    }
+
+    public void crearPoder(){
+        System.out.println("crea un poder nuevo combinando dos  que robo");
+    }
+
+    public  void  roboAbsoluto(){
+        System.out.println("se roba el poder de manera definitiva ");
+    }
+
+    public  void  multiplicacionPoder(){
+        System.out.println("multiplica la fuerza de su poder el doble");
     }
 
     public  void ataque(int saludActual ){
