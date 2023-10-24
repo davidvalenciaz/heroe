@@ -66,7 +66,7 @@ public class Allforone  extends Heroe implements IActionHuman{
         this.roboAbsoluto();
         this.multiplicacionPoder();
         energiaActual(energiaActual);
-        setEnergy(getEnergy() - 10);
+        setEnergy(getEnergy() - energiaActual);
 
 
     }
